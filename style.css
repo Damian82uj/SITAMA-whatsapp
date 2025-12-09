@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  font-family: Arial, sans-serif;
+}
+
+.social-container {
+  display: flex;
+  gap: 30px;
+  background: #111;
+  padding: 20px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.social-icon {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Individual glowing effects */
+.facebook:hover {
+  color: #3b5998;
+  text-shadow: 0 0 10px #3b5998, 0 0 20px blue, 0 0 30px mediumblue;
+}
+
+.instagram:hover {
+  color: #e4405f;
+  text-shadow: 0 0 10px #e4405f, 0 0 20px #e4405f, 0 0 30px #e4405f;
+}
+
+.snapchat:hover {
+  color: #fffc00;
+  text-shadow: 0 0 10px #fffc00, 0 0 20px #fffc00, 0 0 30px #fffc00;
+}
+
+.tiktok:hover {
+  color: #69c9d0;
+  text-shadow: 0 0 10px #69c9d0, 0 0 20px #69c9d0, 0 0 30px #69c9d0;
+}
+
+.whatsapp {
+  color: #25d366;
+  transition: all 0.5s ease;
+}
+
+.whatsapp:hover {
+  color: #25d366;
+  text-shadow: 0 0 15px #25d366, 0 0 30px #25d366, 0 0 45px #25d366;
+  transform: scale(1.3);
+}
